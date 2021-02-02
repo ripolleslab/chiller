@@ -6,4 +6,4 @@ The CHILLER (Computer-Human Interface for the Live Labeling of Emotional Respons
 
 For demonstrations of the output of the CHILLER, and more information about potential application of the CHILLER, see Video Examples and ChillerHandout.pdf
 
-![chiller GIF](VideoExamples/handout3.png)
+![chiller GIF](VideoExamples/ChillerGif.gif)
