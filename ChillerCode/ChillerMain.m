@@ -81,7 +81,7 @@ for ii = 1:maxsnaps
     t(ii)=toc(TStart);
     if ii==1
         f=figure;
-        pause
+        
     end
     %Function to calculate the intensity of the goosebumps. Arguments are
     %the snapshot of the patch of sking, the last greyscale image, the
