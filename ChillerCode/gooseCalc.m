@@ -133,7 +133,7 @@ if B==1
 %Once the baseline period has ended, we calculate the baseline as the
 %average of the last 10 frames and start plotting
 elseif B==0
-    baseline=nanmean(results(2,n-11:n-1));
+    baseline=mean(results(2,n-11:n-1),'omitnan');
     results(1,1:n)=0;
     plot(results(1,:))
 %Real data is being collected
